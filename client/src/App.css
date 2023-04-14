@@ -1,0 +1,17 @@
+.App {
+  /* text-align: center; */
+  background-color: white;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+/* body {
+  justify-content: center;
+} */
+
+a:visited {
+  color: #F0EAD2
+}

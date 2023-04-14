@@ -1,0 +1,125 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: large;
+    width: 100%;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    background-color: #e5e5e5;
+}
+
+.formContainer {
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+    background-repeat: space;
+    align-items: flex-start;
+    padding-right: 1rem;
+
+}
+
+.formContainer h2 {
+    font-size: 50px;
+}
+
+.errorMsg {
+    color: brown;
+}
+
+.errorInput {
+    border-radius: 3px;
+    height: 30px;
+    border-bottom: 2px solid rgb(255, 0, 0);
+    padding: 10px 10px 10px 10px;
+    font-size: large;
+}
+
+.formContainer button {
+    cursor: pointer;
+    border: none;
+    background-color: #9ab64b;
+    padding: 7px 7px 7px 7px;
+    /* border-bottom: 2px solid rgb(6, 93, 35); */
+}
+
+input {
+    border-radius: 3px;
+    height: 10px;
+    padding: 10px 10px 10px 10px;
+    font-size: large;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.input input:focus {
+    border-radius: 3px;
+    height: 30px;
+    padding: 10px 10px 10px 10px;
+    font-size: large;
+    border: none;
+    border-bottom: 2px solid black;  
+}
+
+
+.formContainer input[type=number] {
+    width: 70px;
+    text-align: center;
+}
+
+.formContainer input[type=text] {
+    width: 400px;
+}
+
+.submitReset {
+    display: flex;
+    justify-content: center;
+}
+
+.submitReset input {
+    border: 2px solid black;
+    height: 40px;
+    padding: 0 1rem 0 1rem;
+    margin: 0 1rem 0 1rem;
+    cursor: pointer;
+
+}
+
+.submitReset input:hover {
+    background-color: #9ab64b;
+}
+
+.videoContainer video {
+    width: 99%;
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+.videoContainer {
+    display: flex;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    max-width: 50%;
+    height: 50%;
+    justify-content: space-between;
+    
+}
+
+.boton {
+    background-color: #0f5612; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    border:none;
+    text-transform: uppercase;
+    
+  }
+
+  .boton:hover{
+      background-color: #c0c037; /* Green */
+      color: white;
+  }

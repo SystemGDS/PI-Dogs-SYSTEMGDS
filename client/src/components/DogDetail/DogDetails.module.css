@@ -1,0 +1,96 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loading {
+    height: 100vh;
+}
+
+.loaderContainer {
+    height: 80%;
+}
+
+.CardImage {
+    width: 100%;
+    max-height: 75%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    height: 500px;
+    width: 90%;
+    /* border: 2px solid black */
+}
+
+.imgContainer{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.container h2 {
+    font-size: 60px;
+    text-decoration: none;
+    padding-left: 2rem;
+}
+
+.imgContainer img {
+    border-radius: 5px;
+    max-width: fit-content;
+    /* width: 100%; */
+}
+
+.container p {
+    font-size: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.notFound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notFound img {
+    /* height: 500px; */
+    max-width: 600px;
+}
+
+.details {
+    width: 50vw;
+    /* border: 2px solid black; */
+}
+
+.details a {
+    color: #6e7f41;
+}
+
+.boton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 18px;
+  }
+
+  .boton:hover{
+      background-color: #c0c037; /* Green */
+      color: white;
+
+  }

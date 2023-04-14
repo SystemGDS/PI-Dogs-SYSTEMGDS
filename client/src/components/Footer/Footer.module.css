@@ -1,0 +1,27 @@
+.footer {
+    background-color: rgb(21, 101, 186);
+    color: white;
+    display: flex;
+}
+
+.footer p {
+    width: 50%;
+}
+
+.footer div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 1rem;
+}
+
+.links a {
+    padding-right: 1rem;
+    font-size: x-large;
+}
+
+.heart {
+    font-size: 10px;
+    color: #9ab64b;
+}

@@ -1,0 +1,108 @@
+label {
+    
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+option {
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    height: 14px;
+}
+
+select {
+    color: blue;
+}
+/* The container must be positioned relative: */
+.custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+  
+  .custom-select select {
+    display: none; /*hide original SELECT element: */
+    color: blue;
+  }
+  
+  .select-selected {
+    border-radius: 20px;
+    height: 40px;
+    background-color: rgb(8, 44, 50);
+    width: 250px;
+    font-size: large;
+  }
+  
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  /* style the items (options), including the selected item: */
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  } 
+
+.loading {
+    height: 100vh;
+}
+
+.loaderContainer {
+    height: 80%;
+}
+
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardsContainer a {
+    margin: 1rem;
+}
+
+.filters {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.filters label {
+    padding: 1rem;
+}
