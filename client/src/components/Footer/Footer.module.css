@@ -1,11 +1,12 @@
 .footer {
-    background-color: rgb(21, 101, 186);
+    background-color: rgb(50, 113, 181);
     color: white;
     display: flex;
 }
 
 .footer p {
     width: 50%;
+    color: white;
 }
 
 .footer div {
@@ -19,9 +20,4 @@
 .links a {
     padding-right: 1rem;
     font-size: x-large;
-}
-
-.heart {
-    font-size: 10px;
-    color: #9ab64b;
 }

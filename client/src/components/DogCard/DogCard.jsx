@@ -9,12 +9,12 @@ export default function DogCard(props) {
             <div className={Styles.cardContainer}>
                     <img className={Styles.cardImage} src={props.image ? props.image : defaultImage} alt='Dog'></img>
                     <section className={Styles.description}>
-                        <p><b>Name: </b>{props.name}</p>
-                        <p><b>Weight: </b>{
+                        <h1>{props.name}</h1>
+                        <p>{
                             props.minWeight === props.maxWeight ? `${props.maxWeight} lb` : `${props.minWeight} - ${props.maxWeight} lb`}</p>
-                        <p><b>Height: </b>{
+                        <p>{
                             props.minHeight === props.maxHeight ? `${props.maxHeight} in` : `${props.minHeight} - ${props.maxHeight} in`}</p>
-                        <p><b>Temperament: </b>{props.temperament.join(', ')}</p>
+                        <p>{props.temperament.join(', ')}</p>
                     </section>
             </div>
         </Link>
